@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html,body, #root {
+  min-height: 100%;
+}
+
+body, button {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 26px;
+  padding: 10px;
+  
+}
+
+
+.content {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 70vh;
+    max-height: 100vh;
+    background:  #fff url('./assets/team.jpg') no-repeat;
+    background-size: 800px 600px;
+    background-position: right top;
+    -webkit-font-smoothing: antialiased !important;     
+    
+}
+
+.left {
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+  width: 90%;
+}
+
+.logo {
+  color: #D2872C;
+  font-size: 36px;
+  font-weight: bold;
+
+}
+
+.title {
+  padding-left: 45px;
+  width: 50%;
+  color:  #766F68;
+  font-weight: bold;
+  font-size: 76px;
+}
+
+.subtitle {
+  margin-top: 30px;
+  padding-left: 65px;
+  color:  #766F68;
+  font-size: 32px;
+  width: 50%;
+}
+
+.btn {
+  text-align: center;
+  background: #D2872C;
+  color: #fff;
+  padding: 15px 20px;
+  width: 220px;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-left: 120px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 415px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    width: 90%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: inline;
+  }
+
+  .content {
+    
+    width: 100%;
+    min-height: 70vh;
+    max-height: 100vh;
+    margin: 0 auto;
+    background:  #fff url('./assets/team.jpg') no-repeat;
+    background-size: 400px 300px;    
+    -webkit-font-smoothing: antialiased !important;     
+    
+}
+
+.left {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+}
+
+.title {  
+  text-align: center;
+  width: 90%;  
+  margin: 0 auto;
+  color:  #766F68;
+  font-weight: bold;
+  font-size: 36px;
+  padding-top: 320px;
+  padding-left: 0;
+}
+
+
+.subtitle {
+  padding-top: 50px;  
+  color:  #766F68;
+  font-size: 20px;
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+.btn {
+  text-align: center;
+  background: #D2872C;
+  color: #fff;
+  padding: 15px 20px;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-top: 40px;  
+  font-weight: bold;
+  font-size: 22px;
+  
+}
+
+}
