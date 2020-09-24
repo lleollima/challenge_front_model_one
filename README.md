@@ -16,4 +16,4 @@ Eu resolvi fazer usando React nesse desafio e era um template simples , e esse f
 
 ### Para quem deseja conhecer o site com os desafios  segue o link :
 
-https://devchallenge.now.sh/detail/5ec9a7fc10e94a38493d3910
+> <a href='https://devchallenge.now.sh/detail/5ec9a7fc10e94a38493d3910' > DEVCHALLENGE</a>
