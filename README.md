@@ -5,11 +5,11 @@ A idéia é desenvolver um template  parecido com o da imagem no link do desafio
 Eu resolvi fazer usando React nesse desafio e era um template simples , e esse foi o resultado final , tanto para pc quanto para a versão mobile. 
 
 
- > Versão PC
+ > Versão Mobile
 <img height="200" src='https://github.com/lleollima/challenge_front_model_one/blob/master/challenge_mobile.png' />
 
 
-> Versão Mobile
+> Versão PC
 
 <img height="200" src='https://github.com/lleollima/challenge_front_model_one/blob/master/challenge_pc.jpg' />
 
